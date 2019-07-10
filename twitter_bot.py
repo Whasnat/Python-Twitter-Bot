@@ -40,6 +40,6 @@ class TwitterBot:
                     time.sleep(120)
 
 
-ed = TwitterBot('waliul9000@gmail.com', 'coding14LOL')
+ed = TwitterBot('EMAIL', 'PASSWORD')
 ed.login()
-ed.like_tweet("Dhaka")
+ed.like_tweet("SEARCH_Item")
