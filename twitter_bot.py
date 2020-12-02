@@ -60,10 +60,10 @@ class TwitterBot:
             #         time.sleep(120)
 
 
-# usrname = input("Enter Username:\t")
-# pwd = str(getpass.getpass(prompt='Enter Password:\t'))
-# ed = TwitterBot(usrname, pwd)
-ed = TwitterBot("WHRahat", "LOLcoding14")
+ usrname = input("Enter Username:\t")
+ pwd = str(getpass.getpass(prompt='Enter Password:\t'))
+ ed = TwitterBot(usrname, pwd)
+
 
 ed.login()
 ed.like_tweet("Elon Musk")
